@@ -28,7 +28,9 @@ empresas para resolver un problema específico, lenguajes orientados a objetos.
 
 ## Punto de entrada.
 Todos los lenguajes tienen un punto de entrada, un lugar que indica donde empezará la ejecución de nuestro programa.
-    int main(int argc, char* argv)
+```
+int main(int argc, char* argv)
+```
 ## Variables
 ## Control de flujo
 ## Métodos y Funciones
