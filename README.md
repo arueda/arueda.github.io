@@ -101,5 +101,8 @@ Los loops son equivalentes entre si, sin embargo el do while, ejecutará siempre
  
 
 ## Métodos y Funciones
+Los métodos y las funciones, son bloques de código reutilizable.
+
+## Recursividad
 ## Precedencia de operadores
 ## Comentarios en el código fuente
