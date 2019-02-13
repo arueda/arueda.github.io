@@ -54,5 +54,52 @@ var y:String = "Hola"
 ```
 
 ## Control de flujo
+El control de flujo, es la forma en la que podemos realizar decisiones en nuestros programas.
+Los flujos básicos son:
++ if-then-else
++ loops
++ switch/case
+### if then else
+El *if then else* nos permite ofrecer una bifurcación y ejecutar código basado en una condición.
+
+```
+var x:int = 10
+if x < 10 then
+ print "x es menor a 10"
+else
+ print "x es mayor a 10"
+end
+```
+
+### Loops
+Los loops nos permiten ejecutar un bloque de código hasta o mientras se cumpla una condición.
+Hay diferentes tipos de loops:
++ while do
+```
+var x:int = 10
+while x > 0 do
+ print "El valor de x es :\(x)"
+ x = x - 1
+end 
+```
++ do while
+```
+var x:int = 10
+do
+ print "El valor de x es :\(x)"
+ x = x - 1
+while x > 0
+```
++ for loop
+```
+for (var x:int = 0; x < 10; x = x+1 )
+ print "El valor de x es :\(x)"
+end
+```
+
+Los loops son equivalentes entre si, sin embargo el do while, ejecutará siempre alguna instrucción antes de evaluar la condición. El for loop permite definir valores iniciales y condiciones en una sola linea 
+ 
+
 ## Métodos y Funciones
+## Precedencia de operadores
 ## Comentarios en el código fuente
