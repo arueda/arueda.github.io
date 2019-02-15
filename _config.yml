@@ -7,3 +7,6 @@ relative_links:
 include:
  - README.md 
  - INTRO.md
+ - ALGO.md
+ - DATA.md
+ - POO.md
