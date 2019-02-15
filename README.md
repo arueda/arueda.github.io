@@ -1,32 +1,27 @@
-# Introducción rápida a la programación
+# Breve introducción a la programación
+
 ## ¿Qué es un programa?
-Un programa es una serie de instrucciones que dicen a una computadora que hacer. Se escribe en lenguajes parecidos al inglés. 
+Un programa es una serie de instrucciones que dicen a una computadora que hacer. Estas instrucciones se escribe en lenguajes parecidos al inglés llamados lenguajes de programación.
+Al conjunto de instrucciones escritas en algún lenguaje de programación, le llamamos código fuente.
+El código fuente puede ser convertido en código ejecutable mediante el uso de compiladores o ejecutado directamente mediante el uso de intérpretes.
 
-## Compiladores e intérpretes.
-Dado que las computadoras no hablán inglés, es necesario traducir lo que escribimos a lenguaje máquina. 
-Para esto usamos compiladores o intérpretes. 
-### Compiladores
-Imagina que escribes un libro en español y quieres que todo mundo lo entienda. Lo que debes hacer es entregar tu libro a 
-alguien que lo traduzca a diferentes lenguajes. 
-### Intérpretes
-Imagina de nuevo que has escrito un libro en español y vas a presentarlo frente a una audiencia que solo habla Nahuatl. 
-Para evitar el proceso de traducción, un intérprete se encargará de trasladar cada palabra que dices del español a Nahuatl. 
-Todo en tiempo real.
-### ¿Son mejores los lenguajes compilados que los interpretados?
-En el mundo de la programación, lo mejor es lo que resuelve el problema. Aunque ambos, interprete y compilador se encargan de 
-traducir nuestro lenguaje de programación a código máquina, la diferencia principal es que el interprete es más flexible. 
-Sin embargo, esta flexibilidad, viene con un costo. Generalmente los lenguajes interpretados son más lentos pues necesitan
-ser interpretados cada que vez que se ejecutan a diferencia de los programas compilados pues, una vez compilado, un programa 
-ya no necesita intérprete y será más "rápido". 
-El lenguaje intepretado agrega esa capa extra que indudablemente genera latencia. Con la velocidad de las computadoras 
-actuales, el tiempo de interpretación es despreciable, sin embargo, para aplicaciónes que requieran cierta velocidad como 
-videojuegos, procesadores de multimedia, o incluso navegadores de internet, se siguen prefiriendo los lenguajes compilados.
+## Lenguajes de programación.
+Existen diferentes lenguajes de programación, todos ellos con diferentes filosofías de diseño. La finalidad es la misma, dar instrucciones a la computadora. 
+Cada lenguaje tiene una sintaxis distinta además de un conjunto de palabras reservadas que no pueden ser usadas por el programador libremente.
+Algunos lenguajes famosos son, C, Java, Javascript.
 
-## ¿Cual es el mejor lenguaje de programación?
-De nuevo, el mejor lenguaje es el que resuelve el problema. Hay lenguajes nacidos en la academia, lenguajes hechos por 
-empresas para resolver un problema específico, lenguajes orientados a objetos. Sin embargo, todos los lenguajes tienen cosas en común como puntos de entrada, variables, control de flujo. 
+## Editores de Texto y Entornos de desarrollo.
+Es posible utilizar cualquier editor de texto para escribir un programa de computadora, sin embargo para facilitar esta tarea existen los editores de texto especializados y los entornos de desarrollo o 
+IDE por sus siglas en inglés. Los editores ayudan autocompletando palabras o coloreando la sintaxis del lenguaje.
+Los IDEs, por su parte, ayudan al programador con todo su flujo de trabajo. Agrupan archivos creando proyectos, revisan sintaxis, advierten de posibles errores en el código, convierten el código fuente
 
-## Punto de entrada.
+## Compiladores e intérpretes
+Imagina que escribes un libro en español y planeas editarlo en diferentes idiomas para que todo el mundo lo entienda. Para ello necesita ser traducido y escrito en otro idioma. Esto es similar al trabajo
+del compilador que se encarga de traducir tu código fuente a código máquina. 
+Otra opcion que tienes para que todos sepan que dice tu libro, es que alguien lo traduzca mientras lo lee. Este es el trabajo del intérprete. 
+ 
+## Escribiendo un programa
+### Punto de entrada.
 Todos los lenguajes tienen un punto de entrada, un lugar que indica donde empezará la ejecución de nuestro programa.
 
 Por ejemplo, en Lenguaje C, el punto de entrada se llama main.
@@ -34,7 +29,12 @@ Por ejemplo, en Lenguaje C, el punto de entrada se llama main.
 int main(int argc, char* argv)
 ```
 
-## Variables
+De la misma manera, en Java, el punto de entrada se llama main.
+```
+public static void main(String [ ] args)
+```
+
+### Variables
 Las variables son una forma de almacenar valores para su posterior procesamiento.
 Por ejemplo:
 ```
@@ -45,7 +45,7 @@ print z
 ```
 
 Algunos lenguajes exigen que el tipo de dato de la variable sea especificado en su declaración.
-## Tipos de dato
+### Tipos de dato
 Un tipo de dato es un atributo que indica al compilador o intérprete que información puede contener una variable
 Por ejemplo:
 ```
@@ -53,13 +53,13 @@ var x:int = 0
 var y:String = "Hola"
 ```
 
-## Control de flujo
+### Control de flujo
 El control de flujo, es la forma en la que podemos realizar decisiones en nuestros programas.
 Los flujos básicos son:
 + if-then-else
 + loops
 + switch/case
-### if then else
+#### if then else
 El *if then else* nos permite ofrecer una bifurcación y ejecutar código basado en una condición.
 
 ```
@@ -71,7 +71,7 @@ else
 end
 ```
 
-### Loops
+#### Loops
 Los loops nos permiten ejecutar un bloque de código hasta o mientras se cumpla una condición.
 Hay diferentes tipos de loops:
 + while do
@@ -100,9 +100,12 @@ end
 Los loops son equivalentes entre si, sin embargo el do while, ejecutará siempre alguna instrucción antes de evaluar la condición. El for loop permite definir valores iniciales y condiciones en una sola linea 
  
 
-## Métodos y Funciones
-Los métodos y las funciones, son bloques de código reutilizable.
+### Funciones y procedimientos
+Los procedimientos son bloques de código reutilizable. Una función es un procedimiento que devuelve un valor.
 
-## Recursividad
+```
+funcion 
+```
+
 ## Precedencia de operadores
-## Comentarios en el código fuente
+
