@@ -59,6 +59,7 @@ Los flujos básicos son:
 + if-then-else
 + loops
 + switch/case
+
 #### if then else
 El *if then else* nos permite ofrecer una bifurcación y ejecutar código basado en una condición.
 
@@ -101,11 +102,33 @@ Los loops son equivalentes entre si, sin embargo el do while, ejecutará siempre
  
 
 ### Funciones y procedimientos
-Los procedimientos son bloques de código reutilizable. Una función es un procedimiento que devuelve un valor.
+En algunas ocasiones, necesitamos hacer la misma operación varias veces. Para no tener que reescribir el mismo código, podemos hacer uso de procedimientos y funciones.
+
+Por ejemplo, podemos escribir una función que calcule la suma de tres números:
+```
+
+func suma(int a, int b, int c) : int {
+    int d = a + b + c
+    return d
+}
+
+x = suma(10, 20, 30)
+print x
 
 ```
-funcion 
+El fragmento de código anterior, define una función llamada suma que al ser invocado, nos regresará un número entero.
+
+La única diferencia entre funciones y procedimientos, es que la función nos entregará un valor, un resultado, mientras el procedimiento se limitará a ejecutar una serie de instrucciones.
+Ejemplo:
+```
+
+func saluda(String mensaje)  {
+    print "HOLA " + mensaje
+}
+
+saluda("MUNDO")
+
 ```
 
 ## Precedencia de operadores
-
+Algo
