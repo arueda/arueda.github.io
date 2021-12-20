@@ -1,3 +1,24 @@
+GIT
+  remote: https://github.com/jekyll/jekyll.git
+  revision: 1ac53868207b08a3dff5037e0d78a2629f81a131
+  specs:
+    jekyll (4.2.1)
+      addressable (~> 2.4)
+      colorator (~> 1.0)
+      em-websocket (~> 0.5)
+      i18n (~> 1.0)
+      jekyll-sass-converter (~> 2.0)
+      jekyll-watch (~> 2.0)
+      kramdown (~> 2.3, >= 2.3.1)
+      kramdown-parser-gfm (~> 1.0)
+      liquid (~> 4.0)
+      mercenary (>= 0.3.6, < 0.5)
+      pathutil (~> 0.9)
+      rouge (~> 3.0)
+      safe_yaml (~> 1.0)
+      terminal-table (>= 1.8, < 4.0)
+      webrick (~> 1.7)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -15,21 +36,6 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
-    jekyll (4.2.1)
-      addressable (~> 2.4)
-      colorator (~> 1.0)
-      em-websocket (~> 0.5)
-      i18n (~> 1.0)
-      jekyll-sass-converter (~> 2.0)
-      jekyll-watch (~> 2.0)
-      kramdown (~> 2.3)
-      kramdown-parser-gfm (~> 1.0)
-      liquid (~> 4.0)
-      mercenary (~> 0.4.0)
-      pathutil (~> 0.9)
-      rouge (~> 3.0)
-      safe_yaml (~> 1.0)
-      terminal-table (~> 2.0)
     jekyll-admin (0.9.0)
       jekyll (>= 3.3, < 5.0)
       sinatra (~> 1.4)
@@ -77,15 +83,15 @@ GEM
       rack-test
       sinatra (~> 1.4.0)
       tilt (>= 1.3, < 3)
-    terminal-table (2.0.0)
-      unicode-display_width (~> 1.1, >= 1.1.1)
+    terminal-table (3.0.2)
+      unicode-display_width (>= 1.1.1, < 3)
     thread_safe (0.3.6)
     tilt (2.0.10)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
     tzinfo-data (1.2021.5)
       tzinfo (>= 1.0.0)
-    unicode-display_width (1.8.0)
+    unicode-display_width (2.1.0)
     wdm (0.1.1)
     webrick (1.7.0)
 
@@ -93,7 +99,7 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  jekyll
+  jekyll!
   jekyll-admin (= 0.9.0)
   jekyll-feed
   rack
