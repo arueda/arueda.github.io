@@ -1,5 +1,5 @@
 baseURL = 'https://angelrueda.com.mx/'
 languageCode = 'es-mx'
 title = 'Angel RM'
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = "ananke"
 sectionPagesMenu = 'main'
