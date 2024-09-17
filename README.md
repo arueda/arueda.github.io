@@ -1,4 +1,3 @@
-# Angel Rueda
 Computer Engineer | iOS Developer.  
 
 Email: contact at arueda.dev  
